@@ -101,6 +101,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 ### Special Movements
 - `/orbit [player]` - Orbit around target player
 - `/orbit2 [player]` - Dome-shaped orbit
+- `/orbit3 [player]` - Eletrons around a atom kind of orbit
 - `/spiral [player]` - Spiral around target player
 - `/spiral2 [player]` - Alternative spiral pattern
 - `/helicopter [player]` - Special orbit formation
@@ -129,7 +130,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/unstack` - Stop stacking
 - `/unbang` - Stop banging
 - `/unspiral` - Stop spiral movement
-- `/unorbit` or `/unorbit2` - Stop orbiting
+- `/unorbit` - Stop orbiting
 - `/unwonder` - Stop wandering
 - `/unfloat` - Stop floating
 - `/unspin` - Stop spinning
