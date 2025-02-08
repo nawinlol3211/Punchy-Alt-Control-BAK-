@@ -115,6 +115,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/helicopterradius [number]` - Adjust helicopter orbit radius
 - `/spiralspeed [number]` - Adjust spiral speed
 - `/spiralradius [number]` - Adjust spiral radius
+- `/spamspeed [number]` - Adjust the speed that the bots spam
 
 ### Utility Commands
 - `/check` - Check bot number of main account
