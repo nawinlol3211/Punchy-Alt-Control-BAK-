@@ -55,58 +55,137 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 
 ## 📜 Command Encyclopedia  
 
-### 🔐 Authorization  
-| Command | Description |  
-|---------|-------------|  
-| `/adduser [player]` | Grant command access to a player |  
-| `/removeuser [player]` | Revoke a player's access |  
-
-### 🕹️ Basic Controls  
-| Command | Description |  
-|---------|-------------|  
-| `/sit` | Force alts to sit |  
-| `/jump` | Make alts jump |  
-| `/re` | Soft reset (BreakJoints) |  
-| `/forcereset` | Hard reset (Destroy character) |  
-| `/quit` | Nuclear option - closes game |  
-
-### 🤖 Bot Coordination  
-| Command | Description | Parameters |  
-|---------|-------------|------------|  
-| `/follow [player]` | Follow target in real-time | `[player]` (optional) |  
-| `/pf [player]` | Smart pathfinding follow | `[player]` (optional) |  
-| `/worm [player]` | Train formation | `[player]` (optional) |  
-| `/swarm [player]` | Chaotic swarm pattern | `[player]` (optional) |  
-| `/swarm2 [player]` | 3D dome swarm | `[player]` (optional) |  
-
-### 🌌 Advanced Formations  
-| Command | Visualization | Description |  
-|---------|---------------|-------------|  
-| `/orbit [player]` | 🪐 Standard orbit | Circular path around target |  
-| `/orbit2 [player]` | 🛸 Inclined orbital plane | 45° tilted rotation |  
-| `/orbit3 [player]` | ⚛️ Electron cloud | Randomized quantum pattern |  
-| `/spiral [player]` | 🌪️ Vertical helix | Ascending/descending corkscrew |  
-| `/spiral2 [player]` | 🌀 Horizontal helix | Flat spiral with spacing |  
-
-### 🎭 Animations  
-```markdown
-/dance1    /dance2    /dance3    /cheer  
-/point     /wave      /laugh     /firework
-```
+## 🔐 Authorization Commands
+| Command | Description | Restrictions |
+|---------|-------------|--------------|
+| `/adduser [player]` | Authorize player to use commands | Main account only |
+| `/removeuser [player]` | Remove user's command access | Main account only |
 
 ---
 
-## 🛠️ Advanced Configuration  
-
-### ⚖️ Tuning Commands  
-| Command | Parameter | Effect |  
-|---------|-----------|--------|  
-| `/orbitspeed` | 1-10 | Rotation velocity |  
-| `/orbitradius` | 5-50 | Orbit diameter |  
-| `/spamspeed` | 0.5+ | Seconds between messages |  
-| `/helicopterradius` | 5-30 | Blade length |  
+## 🕹️ Basic Controls
+| Command | Description | Parameters |
+|---------|-------------|------------|
+| `/chat [message]` | Make alts speak in chat | Required: Message |
+| `/sit` | Force alts to sit | |
+| `/jump` | Make alts jump | |
+| `/re` | Soft reset (BreakJoints) | |
+| `/forcereset` | Hard reset (Destroy character) | |
+| `/quit` | Force alt to close game | |
+| `/firework` | Launch upward & explode | |
 
 ---
+
+## 🤖 Movement & Pathfinding
+| Command | Description | Parameters |
+|---------|-------------|------------|
+| `/follow [player]` | Continuous following | Optional: Target |
+| `/pf [player]` | Pathfind to player | Optional: Target |
+| `/walkto [player]` | Direct move to player | Optional: Target |
+| `/wonder` | Random wandering | |
+| `/fwonder` | Leader-follow wandering | |
+| `/stalk [player]` | Teleport behind player | Optional: Target |
+| `/swarm [player]` | Chaotic swarm pattern | Optional: Target |
+| `/swarm2 [player]` | 3D dome swarm | Optional: Target |
+| `/worm [player]` | Train formation | Optional: Target |
+
+---
+
+## 🌌 Advanced Formations
+| Command | Description | Parameters |
+|---------|-------------|------------|
+| `/rline [player]` | Right-side lineup | Optional: Target |
+| `/lline [player]` | Left-side lineup | Optional: Target |
+| `/bline [player]` | Behind lineup | Optional: Target |
+| `/circle [player]` | Circular formation | Optional: Target |
+| `/stackon [player]` | Vertical stacking | Optional: Target |
+| `/bring [player]` | Teleport to issuer | Optional: Target |
+| `/goto [player]` | Teleport to player | Required: Target |
+
+---
+
+## 🌀 Orbital & Spiral Movements
+| Command | Pattern | Parameters |
+|---------|---------|------------|
+| `/orbit [player]` | Standard orbit | Optional: Target |
+| `/orbit2 [player]` | 45° tilted orbit | Optional: Target |
+| `/orbit3 [player]` | Electron cloud pattern | Optional: Target |
+| `/spiral [player]` | Vertical helix | Optional: Target |
+| `/spiral2 [player]` | Horizontal helix | Optional: Target |
+| `/helicopter [player]` | Spinning blade formation | Optional: Target |
+
+---
+
+## ⚙️ Configuration Commands
+| Command | Parameter Range | Effect |
+|---------|-----------------|--------|
+| `/orbitspeed [1-10]` | 1=Slow, 10=Fast | Orbit rotation speed |
+| `/orbitradius [5-50]` | Studs | Orbit diameter |
+| `/spiralspeed [1-10]` | 1=Slow, 10=Fast | Spiral rotation speed |
+| `/spiralradius [5-50]` | Studs | Spiral diameter |
+| `/helicopterspeed [1-10]` | 1=Slow, 10=Fast | Blade rotation speed |
+| `/helicopterradius [5-30]` | Studs | Blade length |
+| `/spamspeed [0.5+]` | Seconds | Message delay |
+
+---
+
+## 🎭 Animations & Effects
+| Command | Animation | Parameters |
+|---------|-----------|------------|
+| `/dance1` | Roblox Dance 1 | |
+| `/dance2` | Roblox Dance 2 | |
+| `/dance3` | Roblox Dance 3 | |
+| `/point` | Point gesture | |
+| `/cheer` | Cheer animation | |
+| `/wave` | Wave animation | |
+| `/laugh` | Laugh animation | |
+| `/float [height]` | Hover at height | Required: Number |
+| `/spin [speed]` | Continuous spinning | Required: 1-10 |
+
+---
+
+## 💬 Chat Controls
+| Command | Description | Parameters |
+|---------|-------------|------------|
+| `/spam [message]` | Spam chat messages | Required: Text |
+| `/unspam` | Stop chat spamming | |
+
+---
+
+## 🛑 Stop Commands
+| Command | What It Stops |
+|---------|---------------|
+| `/stop` | ALL movements & loops |
+| `/unfollow` | Following |
+| `/unworm` | Worm formation |
+| `/unstack` | Stacking |
+| `/unbang` | Bang animation |
+| `/unspiral` | Spiral movements |
+| `/unorbit` | All orbits |
+| `/unwonder` | Wandering |
+| `/unfloat` | Floating |
+| `/unspin` | Spinning |
+| `/unstalk` | Stalking |
+| `/unhelicopter` | Helicopter |
+| `/unswarm` | Swarm patterns |
+
+---
+
+## ℹ️ Utility Commands
+| Command | Description |
+|---------|-------------|
+| `/check` | Show bot position in list |
+| `/totalcmds` | Display command count |
+| `/credits` | Show script credits |
+| `/info [cmd]` | Get command details |
+
+---
+
+## 📈 Performance Tips
+• Use `/stop` before switching patterns  
+• Lower FPS limit for large bot armies (30+ alts)  
+• Combine formations with animations for maximum effect  
+• Use `/pf` instead of `/follow` for obstacle navigation  
 
 ## 🚨 Troubleshooting  
 
