@@ -13,7 +13,6 @@ A feature-rich Roblox script for controlling armies of alt accounts with precisi
 - **Secure Authorization**: Whitelist system for trusted users  
 - **Dynamic UI**: Interactive command bar with auto-complete (main account only)  
 
-![Demo](https://via.placeholder.com/800x400.png?text=Alt+Control+Demo+GIF) *Example: Orbital swarm formation*
 
 ---
 
