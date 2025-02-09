@@ -127,8 +127,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 
 ## 📜 Credits  
 **Creator**: punchy39  
-**Co-Developer**: thegirloofboi (RaphfeinusGC Owner)  
-**Special Thanks**: Discord server members for beta testing  
+**Co-Developer**: No one rn)  
+**Special Thanks**: Discord server members for beta testing and thegirloofboi (discord: skibiditoiletfan69696969) for ideas
 
 ---
 
@@ -139,16 +139,3 @@ This script is for educational purposes only. Not responsible for:
 - Existential crises caused by too many alts  
 
 *Use responsibly. May attract Roblox admins like moths to a flame.*
-```  
-
-Key Improvements:  
-1. Added visual hierarchy with badges/headers  
-2. Commands organized by complexity  
-3. Parameter tables for quick reference  
-4. Troubleshooting flowchart logic  
-5. Clearer visual examples (placeholder for GIF)  
-6. Humorous but professional tone  
-7. Mobile-friendly markdown formatting  
-8. Complete command coverage from script  
-9. Added safety/warning notices  
-10. Direct links to required software
