@@ -71,6 +71,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 - `/quit` - Make all alts leave the game
 - `/firework` - Make all alts fly up and explode
 - `/spam [message]` - Spams the set message
+- `/info [cmd]` - Makes first bot chat info about a command
 
 ### Animations
 - `/dance1`, `/dance2`, `/dance3` - Different dance animations
