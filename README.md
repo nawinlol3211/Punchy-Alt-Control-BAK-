@@ -73,6 +73,9 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 | `/forcereset` | Hard reset (Destroy character) | |
 | `/quit` | Force alt to close game | |
 | `/firework` | Launch upward & explode | |
+| `/nuke [player]` | Launch down at player and explode | Required: Player |
+| `/fling [player]` | Spins in a player flinging them | Required: Player |
+| `/fling2 [player]` | Flys up and down in a player flinging them | Required: Player |
 
 ---
 
@@ -168,6 +171,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 | `/unstalk` | Stalking |
 | `/unhelicopter` | Helicopter |
 | `/unswarm` | Swarm patterns |
+| `/unfling` | Flinging |
 
 ---
 
