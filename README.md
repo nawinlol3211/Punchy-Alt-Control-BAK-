@@ -1,6 +1,6 @@
 # 🎮 Punchy Alt Control  
 **Advanced Multi-Account Management for Roblox**  
-[![Discord](https://img.shields.io/discord/1115335113162788975?label=Discord&logo=discord)](https://discord.gg/j4PgkQ72wp)  
+[![Discord](https://img.shields.io/discord/1333282164195856436?label=Discord&logo=discord)](https://discord.gg/j4PgkQ72wp)  
 A feature-rich Roblox script for controlling armies of alt accounts with precision. Perfect for massive social experiments, coordinated events, or just flexing your bot army.  
 
 ---
