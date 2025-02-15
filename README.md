@@ -1,3 +1,4 @@
+---
 # 🎮 Punchy Alt Control  
 **Advanced Multi-Account Management for Roblox**  
 [![Discord](https://img.shields.io/discord/1333282164195856436?label=Discord&logo=discord)](https://discord.gg/j4PgkQ72wp)  
@@ -12,7 +13,6 @@ A feature-rich Roblox script for controlling armies of alt accounts with precisi
 - **Anti-AFK System**: Automatic input simulation to prevent disconnects  
 - **Secure Authorization**: Whitelist system for trusted users  
 - **Dynamic UI**: Interactive command bar with auto-complete (main account only)  
-
 
 ---
 
@@ -220,4 +220,49 @@ This script is for educational purposes only. Not responsible for:
 - Spontaneous bot rebellions  
 - Existential crises caused by too many alts  
 
-*Use responsibly. May attract Roblox admins like moths to a flame.*
+*Use responsibly. May attract Roblox admins like moths to a flame.*  
+
+---
+
+## 🆕 New Commands (Added in Latest Update)
+
+### 🎮 Advanced Controls
+| Command | Description | Parameters |
+|---------|-------------|------------|
+| `/elevator [player]` | Create an elevator platform of alts beneath the target | Optional: Target |
+| `/mine [player]` | Bots become hidden mines that explode when their head is touched | Optional: Target |
+| `/npc` | Makes bots act like NPCs | |
+| `/unnpc` | Stops NPC mode for all bots | |
+
+---
+
+## 🛠️ Additional Configuration Commands
+| Command | Description | Parameters |
+|---------|-------------|------------|
+| `/spamspeed [0.1+]` | Set the delay between spam messages | Required: Seconds |
+| `/unspam` | Stop spamming messages in chat | |
+
+---
+
+## 🎉 Special Effects
+| Command | Description | Parameters |
+|---------|-------------|------------|
+| `/bang [player]` | Simulate banging a target | Optional: Target |
+| `/unbang` | Stop the bang action | |
+
+---
+
+## 🧠 Advanced AI Commands
+| Command | Description | Parameters |
+|---------|-------------|------------|
+| `/npc` | Makes bots act like NPCs | |
+| `/unnpc` | Stops NPC mode for all bots | |
+
+---
+
+## 🛠️ Utility Commands
+| Command | Description | Parameters |
+|---------|-------------|------------|
+| `/info [cmd]` | Displays information about a command | Required: Command Name |
+
+---
