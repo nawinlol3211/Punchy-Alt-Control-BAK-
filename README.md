@@ -62,6 +62,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 
 ---
 
+## 🎮 Fun Commands
+| Command | Description | Parameters |
+|---------|-------------|------------|
+| `/elevator [player]` | Create an elevator platform of alts beneath the target | Optional: Target |
+| `/npc` | | Makes bots act like NPCs | | |
+---
+
 ## 🕹️ Basic Controls
 | Command | Description | Parameters |
 |---------|-------------|------------|
