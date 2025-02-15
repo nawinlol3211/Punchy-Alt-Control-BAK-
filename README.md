@@ -1,5 +1,3 @@
----
-
 # 🎮 Punchy Alt Control  
 **Advanced Multi-Account Management for Roblox**  
 [![Discord](https://img.shields.io/discord/1333282164195856436?label=Discord&logo=discord)](https://discord.gg/j4PgkQ72wp)  
