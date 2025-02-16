@@ -219,7 +219,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 
 ## 📜 Credits  
 **Creator**: punchy39  
-**Co-Developer**: No one rn)  
+**Co-Developer**: d.i.z.z_y  
 **Special Thanks**: Discord server members for beta testing and thegirloofboi (discord: skibiditoiletfan69696969) for ideas
 
 ---
