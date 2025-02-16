@@ -31,16 +31,16 @@ A feature-rich Roblox script for controlling armies of alt accounts with precisi
 
 2. **Script Configuration**:  
 ```lua
--- CONFIG START --
-_G.prefix = "/"            -- Command prefix
-_G.mainAccount = "YourMain" -- Case-sensitive main account name
-_G.fpslimit = 15           -- FPS limit for alts (saves resources)
-
-_G.altAccounts = {         -- List ALL alt accounts:
-    ["AltAccount1"] = true,
-    ["AltAccount2"] = true,
-    -- Add more below --
-}
+--CONFIG START
+getgenv().Settings = {
+    prefix = "/";
+    mainAccount = "MAIN ACCOUNT HERE";
+    fpslimit = 30;
+    altAccounts = {
+        ["ALT ACCOUNT 1"] = true,
+        ["ALT ACCOUNT 2"] = true,
+    };
+};
 -- CONFIG END --
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punchy-Alt-Control/main/main.lua", true))()
