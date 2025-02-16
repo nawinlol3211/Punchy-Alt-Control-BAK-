@@ -70,6 +70,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 | `/unnpc` |  Stops NPC mode for all bots | |
 | `/elevator [player]` | Create an elevator platform of alts beneath the target | Optional: Target |
 | `/mine [player]` | Bots become hidden mines that explode when their head is touched | Optional: Target |
+| `/jerk` | Bots jerk off (R6 only) | |
 
 ---
 
@@ -182,6 +183,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Nuclearpotato69/Punch
 | `/unhelicopter` | Helicopter |
 | `/unswarm` | Swarm patterns |
 | `/unfling` | Flinging |
+| `/unjerk` | Bots stop jerking off |
 
 ---
 
